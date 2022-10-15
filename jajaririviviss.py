@@ -5,6 +5,7 @@ import wikipedia #pip install wikipedia
 import webbrowser
 import os
 import smtplib
+# pyaudio package installaton is necessary for listiening/Recognizing the audio
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
